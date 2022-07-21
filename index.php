@@ -20,7 +20,7 @@
     </header>
    <main>
      <?php
-     $conectar=mysqli_connect("localhost","id19246385_mensajesusuario","qO8SV6u<z)DdH=D9","id19246385_mensaje");
+     $conectar=mysqli_connect("localhost","id19246385_mensajesusuario","RJ1nubs=rtj62~sg","id19246385_mensaje");
         $res=mysqli_query($conectar,'SELECT mensaje FROM mensajes2');
         while ($mensajes=mysqli_fetch_object($res)) {
         ?> 
