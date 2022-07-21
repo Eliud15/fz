@@ -50,7 +50,7 @@
     <br>
     <footer>
         <form action="enviarmensaje.php" method="post">
-        <input type="submit" name="enviar" id="actualizar" value="Actualizar">
+        <input type="button" name="enviar" id="actualizar" value="Actualizar">
              <input type="text" id="mensaje" name="mensaje" placeholder="Escribe aqui tu mensaje" autocomplete="off"> 
              <input type="submit" name="enviar" id="enviar" value="Enviar">
         </form>
@@ -61,9 +61,7 @@
 
 var enviar=document.querySelector("#enviar");
 var Actualizar=document.querySelector("#actualizar");
-Actualizar.addEventListener("click",(e)=>{
-    location.reload("https://ezonadeamigos.000webhostapp.com/")
-});
+
 enviar.addEventListener("click",(e)=>{
     var mensaje=document.querySelector("#mensaje");
     if (mensaje.value.length<=0) {
@@ -77,6 +75,9 @@ enviar.addEventListener("click",(e)=>{
     else{
         location.reload("https://ezonadeamigos.000webhostapp.com/")
     }
+});
+Actualizar.addEventListener("click",(e)=>{
+    location.reload("https://ezonadeamigos.000webhostapp.com/")
 });
 </script>
 </body>

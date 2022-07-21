@@ -16,7 +16,10 @@ header{
     z-index: 1200;
 }
 h1{
-   color: aliceblue;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
   
 }
 
