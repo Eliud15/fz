@@ -15,6 +15,6 @@ echo("<center><button class='btn'>Volver</button></center>");
 <script>
 
     
-    location.href="http://localhost/friendzone/index.php"
+    location.href="https://ezonadeamigos.000webhostapp.com/"
 
 </script>

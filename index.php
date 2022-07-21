@@ -75,7 +75,7 @@ enviar.addEventListener("click",(e)=>{
 });
         setTimeout(function(){
            
-            location.reload("http://127.0.0.1:50013/index.html")
+            location.reload("https://ezonadeamigos.000webhostapp.com/")
         },1000 * 10)
 </script>
 </body>
