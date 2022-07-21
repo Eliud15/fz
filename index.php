@@ -70,7 +70,7 @@ enviar.addEventListener("click",(e)=>{
         alert("No puedes Escribir mas de 9.000 caracteres en el mensaje")
     }
     else{
-        location.reload("http://localhost/friendszone/index.php")
+        location.reload("https://ezonadeamigos.000webhostapp.com/")
     }
 });
         setTimeout(function(){
